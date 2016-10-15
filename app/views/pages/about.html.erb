@@ -1,1 +1,57 @@
 hi
+This is the about page
+
+<h1><%= 1 + 2 %></h1>
+
+<%= link_to 'first post', '/articles/my_first_post.html' %>
+
+<% all_posts = ['my_first_post.html', 'my_second_post.html'] %>
+
+<% all_posts.each do |post| %>
+  <p>
+    <%= link_to "post: #{post}", "/articles/#{post}" %>
+  </p>
+<% end %>
+<h1> title</h1>
+
+# Toolbox
+#
+# String
+#   #concat
+#   #split
+#   #+
+# Array
+#   #join
+# Hash
+#   #
+# Enumerable
+#   #each
+#     * iterate through something
+#   #map
+#   #map!
+
+# title
+
+'my_first_post.html.mderb'
+
+model user (OOP) lower
+  User.find(id: params[:id])
+
+  # given through Active Record
+  def self.User(id: id)
+  end
+
+  def users
+  end
+
+view (user/all/edit)
+  template code
+  .erb vs .html.erb
+  # parsing
+  html
+
+controller (response/request) !!!http
+  redirects and browser stuff
+  @user = User.find(id: params[:id])
+  flash[:notice] = ....
+
