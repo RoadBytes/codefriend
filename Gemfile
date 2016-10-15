@@ -23,6 +23,9 @@ gem "simple_form"
 gem "title"
 gem "uglifier"
 
+gem 'redcarpet'      # markdown renderer
+gem 'rouge'          # code highlighting
+
 group :development do
   gem "quiet_assets"
   gem "refills"

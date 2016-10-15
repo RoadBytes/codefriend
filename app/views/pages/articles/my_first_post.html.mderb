@@ -1,0 +1,56 @@
+my first post
+
+<%= content_for :page_title, 'About Us - Custom page title' %>
+
+My awesome view
+===============
+
+
+Look, I can **use**
+
+Welcome to the first post on the blog!
+
+# Hi
+## Hello
+### How
+#### Hare
+##### Hyou
+
+<%= link_to 'About', page_path('about') %>
+
+```
+def test
+end
+```
+
+~~~ ruby
+def here_is_more
+  "this is really weird"
+end
+~~~
+
+<%= 1 + 2 %>
+
+~~~
+def here_is_more
+  "this is really weird"
+end
+~~~
+
+~~~ ruby
+source "http://rubygems.org"
+
+ruby "2.3.0"
+
+gem "autoprefixer-rails"
+gem "bourbon", "5.0.0.beta.3"
+gem "delayed_job_active_record"
+gem "flutie"
+gem "high_voltage"
+gem "honeybadger"
+gem "jquery-rails"
+~~~
+
+exit
+
+

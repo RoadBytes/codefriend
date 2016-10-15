@@ -1,5 +1,10 @@
-hi
-This is the about page
+# hi
+
+* This is the about page
+* This is the about page
+  * This is the about page
+
+## This is an h2
 
 <h1><%= 1 + 2 %></h1>
 

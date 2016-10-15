@@ -177,7 +177,9 @@ GEM
     rake (11.3.0)
     recipient_interceptor (0.1.2)
       mail
+    redcarpet (3.3.4)
     refills (0.2.0)
+    rouge (2.0.6)
     rspec-core (3.4.4)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -282,7 +284,9 @@ DEPENDENCIES
   rack-timeout
   rails (~> 4.2.0)
   recipient_interceptor
+  redcarpet
   refills
+  rouge
   rspec-rails (~> 3.4.0)
   sass-rails (~> 5.0)
   shoulda-matchers
